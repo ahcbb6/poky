@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=39346640a23c701e4f459e05f56f4449"
 SRCREV = "${AUTOREV}"
 PV = "0.1+git${SRCPV}"
 
-SRC_URI = "git://github.com/ahcbb6/baremetal-helloqemu.git;protocol=https;branch=stress-test-before"
+SRC_URI = "git://github.com/ahcbb6/baremetal-helloqemu.git;protocol=https;branch=stress-test-after"
 UPSTREAM_VERSION_UNKNOWN="1"
 
 S = "${WORKDIR}/git"
