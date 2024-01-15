@@ -10,14 +10,14 @@ LIC_FILES_CHKSUM = " \
 		file://COPYING3;md5=d32239bcb673463ab874e80d47fae504 \
 		file://COPYING.LIBGLOSS;md5=c0469b6ebb847a75781066be515f032d \
 		file://COPYING.LIB;md5=2d5025d4aa3495befef8f17206a5b0a1 \
-		file://COPYING.NEWLIB;md5=5a9d477b5f4eab20dccf655a77107a6e \
+		file://COPYING.NEWLIB;md5=4f1a15846ffee91e352418563e1bce27 \
 		file://newlib/libc/posix/COPYRIGHT;md5=103468ff1982be840fdf4ee9f8b51bbf \
 		"
 
-BASEVER = "4.3.0"
+BASEVER = "4.4.0"
 PV = "${BASEVER}+git"
 SRC_URI = "git://sourceware.org/git/newlib-cygwin.git;protocol=https;branch=main"
-SRCREV="9e09d6ed83cce4777a5950412647ccc603040409"
+SRCREV="ad11e2587f83d61357a32c61c36d72ea4f39315e"
 
 INHIBIT_DEFAULT_DEPS = "1"
 DEPENDS = "virtual/${TARGET_PREFIX}gcc"
